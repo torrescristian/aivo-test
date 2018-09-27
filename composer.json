@@ -1,7 +1,7 @@
 {
     "name": "aivo-test",
     "description": "Endpoint that returns an array with the last 10 tweets of a twitter account",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": [
         {
             "name": "Cristian Tomas Torres",
@@ -26,7 +26,7 @@
         "process-timeout": 0
     },
     "scripts": {
-        "start": "php -S localhost:1234 -t public",
+        "start": "start http://localhost:1234/tweets & php -S localhost:1234 -t public",
         "test": "phpunit"
     },
     "autoload": {
