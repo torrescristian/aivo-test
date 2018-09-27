@@ -1,0 +1,6 @@
+/vendor/
+/nbproject/
+/composer.lock
+/generated-sql/
+/propel.php
+/propel.php.dist
